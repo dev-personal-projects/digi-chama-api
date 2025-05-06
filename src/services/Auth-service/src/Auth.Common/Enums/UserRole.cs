@@ -19,7 +19,12 @@ namespace Auth.Common.Enums
         /// <summary>
         /// User is a member of at least one group
         /// </summary>
-        Member = 3
+        Member = 3,
+
+        ///<summary
+        /// i developer and ceo i am the super admin of the application
+        /// </summmary>
+        superAdmin = 4
 
 
     }

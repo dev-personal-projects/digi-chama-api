@@ -285,6 +285,4 @@ Schema flexibility - Accommodates varied user attributes
 Security features - Data encryption at rest and in transit
 
 Alternative databases to consider:
-
-Azure SQL Database - If you prefer relational structure
-MongoDB - If you need more schema flexibility at potentially lower cost
+authentication to use cosmos

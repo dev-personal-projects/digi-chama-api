@@ -49,6 +49,10 @@ namespace Auth.Common.Enums
         /// <summary>
         /// Account has been suspended by administration
         /// </summary>
-        Suspended = 5
+        Suspended = 5,
+        ///<summary>
+        /// account has been deleted by the user or admin
+        /// </summary>
+        Deleted = 6
     }
 }
