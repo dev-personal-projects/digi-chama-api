@@ -286,3 +286,31 @@ Security features - Data encryption at rest and in transit
 
 Alternative databases to consider:
 authentication to use cosmos
+
+//nuget
+# Core packages for SendGrid, Africa's Talking, and Azure
+dotnet add package SendGrid
+dotnet add package AfricasTalking.NET.SDK
+dotnet add package Microsoft.Azure.Cosmos
+dotnet add package Microsoft.Extensions.Configuration
+dotnet add package Microsoft.Extensions.Options
+
+# Security and Authentication packages
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+dotnet add package System.IdentityModel.Tokens.Jwt
+dotnet add package BCrypt.Net-Next
+
+# Validation and API Documentation
+dotnet add package FluentValidation.AspNetCore
+dotnet add package Swashbuckle.AspNetCore
+
+# Logging and Monitoring
+dotnet add package Serilog.AspNetCore
+dotnet add package Serilog.Sinks.ApplicationInsights
+dotnet add package Microsoft.ApplicationInsights.AspNetCore
+
+# Azure Key Vault for secrets
+dotnet add package Azure.Security.KeyVault.Secrets
+dotnet add package Azure.Identity
+
+dotnet add package Microsoft.Extensions.Configuration.AzureKeyVault
